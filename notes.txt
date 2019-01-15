@@ -1,0 +1,27 @@
+1. Solved circular references in graphql types
+
+    wrap fields with () => (
+
+
+    ), so that the function will not run until the whole file has been defined
+
+
+2. Query Fragments
+
+...companyDetails
+
+fragment companyDetails on Company {
+  id
+  name
+  description
+}
+
+3. Look at queries and mutations to see what I can do to the data
+
+4. Apollo Client and Apollo Provider to work with react view layer
+
+5. graphql-tag to write queries in javascript files,
+
+  gql `<Query goes in here>`
+
+6. graphql from react-apollo to bind components with queries
